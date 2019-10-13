@@ -1,0 +1,6 @@
+framework module Pods_Football_Streamer {
+  umbrella header "Pods-Football Streamer-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0309879F233F76F400894D5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0309879E233F76F400894D5B /* AppDelegate.swift */; };
+		030987A3233F76F400894D5B /* FootballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030987A2233F76F400894D5B /* FootballViewController.swift */; };
+		030987A6233F76F400894D5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030987A4233F76F400894D5B /* Main.storyboard */; };
+		030987A8233F76F600894D5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030987A7233F76F600894D5B /* Assets.xcassets */; };
+		030987AB233F76F600894D5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030987A9233F76F600894D5B /* LaunchScreen.storyboard */; };
+		030987B3233F77DA00894D5B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030987B2233F77DA00894D5B /* MenuViewController.swift */; };
+		034EF9BC2345282B00D5DB68 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034EF9BB2345282B00D5DB68 /* UINavigationBar.swift */; };
+		034EF9BE23452BF400D5DB68 /* MatchesViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034EF9BD23452BF400D5DB68 /* MatchesViewController+UI.swift */; };
+		034EF9C023453F3C00D5DB68 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034EF9BF23453F3C00D5DB68 /* UIColor.swift */; };
+		034EF9C223454F2500D5DB68 /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034EF9C123454F2500D5DB68 /* UIBarButtonItem.swift */; };
+		034EF9C523454F5A00D5DB68 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034EF9C423454F5A00D5DB68 /* UINavigationController.swift */; };
+		036CD967233FBE6B0083108B /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036CD966233FBE6B0083108B /* MatchCell.swift */; };
+		036CD96C233FC9230083108B /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036CD96B233FC9230083108B /* LinksViewController.swift */; };
+		036CD96E233FCABB0083108B /* LinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036CD96D233FCABB0083108B /* LinkCell.swift */; };
+		03B48512233FD17A000035AA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B48511233FD17A000035AA /* PlayerViewController.swift */; };
+		03B99AFE23450CC8002487D9 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B99AFD23450CC8002487D9 /* UIButton.swift */; };
+		03B99B0023451257002487D9 /* MenuViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B99AFF23451257002487D9 /* MenuViewController+UI.swift */; };
+		4EC625FF764552CACD13C9E1 /* Pods_Football_Streamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12E0BEB1A687482262CA0E3 /* Pods_Football_Streamer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0309879B233F76F400894D5B /* Shabibi Streamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shabibi Streamer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0309879E233F76F400894D5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		030987A2233F76F400894D5B /* FootballViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballViewController.swift; sourceTree = "<group>"; };
+		030987A5233F76F400894D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		030987A7233F76F600894D5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030987AA233F76F600894D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		030987AC233F76F600894D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030987B2233F77DA00894D5B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		034EF9BB2345282B00D5DB68 /* UINavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
+		034EF9BD23452BF400D5DB68 /* MatchesViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchesViewController+UI.swift"; sourceTree = "<group>"; };
+		034EF9BF23453F3C00D5DB68 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		034EF9C123454F2500D5DB68 /* UIBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem.swift; sourceTree = "<group>"; };
+		034EF9C423454F5A00D5DB68 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		036CD966233FBE6B0083108B /* MatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		036CD96B233FC9230083108B /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
+		036CD96D233FCABB0083108B /* LinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCell.swift; sourceTree = "<group>"; };
+		03B48511233FD17A000035AA /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		03B99AFD23450CC8002487D9 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		03B99AFF23451257002487D9 /* MenuViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenuViewController+UI.swift"; sourceTree = "<group>"; };
+		32B9D597376C5A784362DE6A /* Pods-Football Streamer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Football Streamer.debug.xcconfig"; path = "Target Support Files/Pods-Football Streamer/Pods-Football Streamer.debug.xcconfig"; sourceTree = "<group>"; };
+		8348107AF1833B574E816C62 /* Pods-Football Streamer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Football Streamer.release.xcconfig"; path = "Target Support Files/Pods-Football Streamer/Pods-Football Streamer.release.xcconfig"; sourceTree = "<group>"; };
+		A12E0BEB1A687482262CA0E3 /* Pods_Football_Streamer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Football_Streamer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03098798233F76F400894D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC625FF764552CACD13C9E1 /* Pods_Football_Streamer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03098792233F76F400894D5B = {
+			isa = PBXGroup;
+			children = (
+				0309879D233F76F400894D5B /* Football Streamer */,
+				0309879C233F76F400894D5B /* Products */,
+				DAF655C4FBFE346EEF0EADFE /* Pods */,
+				2E82AD3493A4C391DEF5A039 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0309879C233F76F400894D5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0309879B233F76F400894D5B /* Shabibi Streamer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0309879D233F76F400894D5B /* Football Streamer */ = {
+			isa = PBXGroup;
+			children = (
+				0309879E233F76F400894D5B /* AppDelegate.swift */,
+				036CD968233FC8C20083108B /* Scenes */,
+				03B99AFC23450CA1002487D9 /* Extensions */,
+				030987A4233F76F400894D5B /* Main.storyboard */,
+				030987A9233F76F600894D5B /* LaunchScreen.storyboard */,
+				030987A7233F76F600894D5B /* Assets.xcassets */,
+				030987AC233F76F600894D5B /* Info.plist */,
+			);
+			path = "Football Streamer";
+			sourceTree = "<group>";
+		};
+		032898322340DC61005ADD1D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				030987B2233F77DA00894D5B /* MenuViewController.swift */,
+				03B99AFF23451257002487D9 /* MenuViewController+UI.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		036CD968233FC8C20083108B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				032898322340DC61005ADD1D /* Menu */,
+				036CD969233FC8CD0083108B /* Matches */,
+				036CD96A233FC8D50083108B /* Links */,
+				03B48513233FD188000035AA /* Player */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		036CD969233FC8CD0083108B /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				030987A2233F76F400894D5B /* FootballViewController.swift */,
+				034EF9BD23452BF400D5DB68 /* MatchesViewController+UI.swift */,
+				036CD966233FBE6B0083108B /* MatchCell.swift */,
+			);
+			path = Matches;
+			sourceTree = "<group>";
+		};
+		036CD96A233FC8D50083108B /* Links */ = {
+			isa = PBXGroup;
+			children = (
+				036CD96B233FC9230083108B /* LinksViewController.swift */,
+				036CD96D233FCABB0083108B /* LinkCell.swift */,
+			);
+			path = Links;
+			sourceTree = "<group>";
+		};
+		03B48513233FD188000035AA /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				03B48511233FD17A000035AA /* PlayerViewController.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		03B99AFC23450CA1002487D9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03B99AFD23450CC8002487D9 /* UIButton.swift */,
+				034EF9BB2345282B00D5DB68 /* UINavigationBar.swift */,
+				034EF9C423454F5A00D5DB68 /* UINavigationController.swift */,
+				034EF9C123454F2500D5DB68 /* UIBarButtonItem.swift */,
+				034EF9BF23453F3C00D5DB68 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2E82AD3493A4C391DEF5A039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A12E0BEB1A687482262CA0E3 /* Pods_Football_Streamer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAF655C4FBFE346EEF0EADFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32B9D597376C5A784362DE6A /* Pods-Football Streamer.debug.xcconfig */,
+				8348107AF1833B574E816C62 /* Pods-Football Streamer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0309879A233F76F400894D5B /* Football Streamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030987AF233F76F600894D5B /* Build configuration list for PBXNativeTarget "Football Streamer" */;
+			buildPhases = (
+				67574E169E4C32DA0C27D064 /* [CP] Check Pods Manifest.lock */,
+				03098797233F76F400894D5B /* Sources */,
+				03098798233F76F400894D5B /* Frameworks */,
+				03098799233F76F400894D5B /* Resources */,
+				78661F2583FEC021C1BC44EA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Football Streamer";
+			productName = "Football Streamer";
+			productReference = 0309879B233F76F400894D5B /* Shabibi Streamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03098793233F76F400894D5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Shabibi;
+				TargetAttributes = {
+					0309879A233F76F400894D5B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 03098796233F76F400894D5B /* Build configuration list for PBXProject "Football Streamer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03098792233F76F400894D5B;
+			productRefGroup = 0309879C233F76F400894D5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0309879A233F76F400894D5B /* Football Streamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03098799233F76F400894D5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030987AB233F76F600894D5B /* LaunchScreen.storyboard in Resources */,
+				030987A8233F76F600894D5B /* Assets.xcassets in Resources */,
+				030987A6233F76F400894D5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67574E169E4C32DA0C27D064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Football Streamer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78661F2583FEC021C1BC44EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Football Streamer/Pods-Football Streamer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Football Streamer/Pods-Football Streamer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Football Streamer/Pods-Football Streamer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03098797233F76F400894D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030987A3233F76F400894D5B /* FootballViewController.swift in Sources */,
+				034EF9C023453F3C00D5DB68 /* UIColor.swift in Sources */,
+				0309879F233F76F400894D5B /* AppDelegate.swift in Sources */,
+				030987B3233F77DA00894D5B /* MenuViewController.swift in Sources */,
+				034EF9BE23452BF400D5DB68 /* MatchesViewController+UI.swift in Sources */,
+				03B99AFE23450CC8002487D9 /* UIButton.swift in Sources */,
+				034EF9C223454F2500D5DB68 /* UIBarButtonItem.swift in Sources */,
+				03B48512233FD17A000035AA /* PlayerViewController.swift in Sources */,
+				036CD967233FBE6B0083108B /* MatchCell.swift in Sources */,
+				036CD96C233FC9230083108B /* LinksViewController.swift in Sources */,
+				036CD96E233FCABB0083108B /* LinkCell.swift in Sources */,
+				03B99B0023451257002487D9 /* MenuViewController+UI.swift in Sources */,
+				034EF9BC2345282B00D5DB68 /* UINavigationBar.swift in Sources */,
+				034EF9C523454F5A00D5DB68 /* UINavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		030987A4233F76F400894D5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030987A5233F76F400894D5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		030987A9233F76F600894D5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030987AA233F76F600894D5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030987AD233F76F600894D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		030987AE233F76F600894D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030987B0233F76F600894D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B9D597376C5A784362DE6A /* Pods-Football Streamer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW237Y3M7X;
+				INFOPLIST_FILE = "Football Streamer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "no.shabibi.leaker.Football-Streamer";
+				PRODUCT_NAME = "Shabibi Streamer";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		030987B1233F76F600894D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8348107AF1833B574E816C62 /* Pods-Football Streamer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW237Y3M7X;
+				INFOPLIST_FILE = "Football Streamer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "no.shabibi.leaker.Football-Streamer";
+				PRODUCT_NAME = "Shabibi Streamer";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03098796233F76F400894D5B /* Build configuration list for PBXProject "Football Streamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030987AD233F76F600894D5B /* Debug */,
+				030987AE233F76F600894D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030987AF233F76F600894D5B /* Build configuration list for PBXNativeTarget "Football Streamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030987B0233F76F600894D5B /* Debug */,
+				030987B1233F76F600894D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03098793233F76F400894D5B /* Project object */;
+}
